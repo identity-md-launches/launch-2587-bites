@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Bites",
+    "name": "Bites",
+    "symbol": "BIT",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0x433c89e346976a3686cc237fcfe14d4eb84c831d"
+  },
+  "notes": "Bites (BIT) is a fixed-supply ERC-20 with 18 decimals. Its zero-argument constructor mints 1,000,000,000 tokens once to msg.sender, the factory at launch. It has no administrative powers or transfer fees. No application contracts are deployed. pool.initialPrice records provenance only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply."
+}
